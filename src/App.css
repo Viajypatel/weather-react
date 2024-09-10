@@ -1,0 +1,91 @@
+.bg-image{
+  background-color: rgb(144, 144, 240);
+ /* background-image: url('./assets/bgimage2.png'); */
+ background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height:100%;
+width:100%;
+}
+
+input::placeholder {
+  
+  font-style: italic;
+}
+
+
+
+
+.weather{
+  margin-top:25px;
+  height:100px;
+  //background:red;
+  display: flex;
+  justify-content: center;
+  
+}
+.imagediv{
+    height:100px;
+    width:80px;
+    //background-color:greenyellow;
+}
+.imagediv img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+.temp ,.Cityname{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height:40px;
+  //background-color:rgb(119, 255, 0);
+}
+.temp h2,.Cityname h2{
+  font-size:25px;
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  margin-top:12px;
+  height:100px;
+  //background-color: aquamarine;
+}
+.data1{
+  display: flex;
+  align-items: center;
+  gap:10px;
+ /* justify-content:space-between; */
+  width:100%;
+/* background-color: beige; */
+}
+.data1 h2{
+  font-size:16px;
+
+}
+.data2{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  /* //justify-content:space-between; */
+  width:100%;
+  height:100%;
+  /* background-color: blueviolet; */
+}
+
+.data1 .image1{
+  margin-left:12px;
+  height:30px;
+  width:40px;
+  //background-color:red;
+}
+.data2 .image2{
+  margin-left:2px;
+  height:30px;
+  width:40px;
+  /* background-color:red; */
+}
+.data2  h2{
+   font-size:16px;
+  
+}
